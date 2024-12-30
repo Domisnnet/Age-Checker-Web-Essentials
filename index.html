@@ -19,26 +19,28 @@
        </div>
     </header>
 
-    <section>
-
-        <div>
-            <p>Ano de Nascimento: 
-            <input type="number" name="txtano" id="txtano" min="0">
-            </p>
-            <p>Sexo:
-                <input type="radio" name="radsex" id="mas" checked>
-                <label for="masc">Masculino</label>
-                <input type="radio" name="radsex" id="fem">
-                <label for="fem">Feminino</label>
-                <p>
-                    <input type="button" value="Verificar" onclick="verificar ()">
-                </p>
-            </p>
+    <section id="principal">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="espaco1">Ano de Nascimento: 
+                    <input type="number" name="txtano" id="txtano" min="0">
+                    </p>
+                    <p class="espaco2">Sexo:
+                        <input type="radio" name="radsex" id="mas" checked>
+                        <label for="masc">Masculino</label>
+                        <input type="radio" name="radsex" id="fem">
+                        <label for="fem">Feminino</label>
+                        <p id="verificar">
+                            <input type="button" value=" Verificar " onclick="verificar ()">
+                        </p>
+                    </p>
+                </div>
+                <div id = 'res'>
+                    Preencha os dados acima para ver o Resultado!
+                </div>
+            </div>
         </div>
-        <div id = 'res'>
-            Preencha os dados acima para ver o Resultado!
-        </div>
-
     </section>
 
     <footer>
