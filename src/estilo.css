@@ -28,12 +28,6 @@ body::before {
     z-index: -1; /* Garante que fique atrás do conteúdo do body */
 }
 
-header h1 {
-    font-size: x-large;
-    font-weight: bolder;
-}
-
-
 header {
     display: flex;
     align-items: center;
@@ -41,6 +35,11 @@ header {
     background-color:#4b75a994; 
     color: black;
     width: 100%;
+}
+
+header h1 {
+    font-size: x-large;
+    font-weight: bolder;
 }
 
 header .espacamento {
