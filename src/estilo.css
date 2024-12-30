@@ -24,7 +24,7 @@ body::before {
     height: 100%;
     background: url(../imagens/background.jpg) no-repeat center center;
     background-size: cover;
-    /* opacity: 0.35; /* Ajuste a opacidade desejada aqui */
+    opacity: 0.65; /* Ajuste a opacidade desejada aqui */
     z-index: -1; /* Garante que fique atrás do conteúdo do body */
 }
 
@@ -70,7 +70,7 @@ main {
     padding: 15px;
     width: 450px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
     top: 50%;
     left: 50%;
 }
