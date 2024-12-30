@@ -61,10 +61,9 @@ main {
     padding: 15px;
     width: 450px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
 }
 
 .espaco1 {
