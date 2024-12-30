@@ -9,49 +9,51 @@
 
 <body onload = "carregar()">
 
-    <header>
-       <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="espacamento">Verificação de Idade</h1>
+    <div class="wrapper"> <!-- Início da Div wrapper -->
+        <header>
+            <div class="container">
+             <div class="row">
+                 <div class="col-md-12">
+                     <h1 class="espacamento">Verificação de Idade</h1>
+                 </div>
+             </div>
             </div>
-        </div>
-       </div>
-    </header>
-
-    <section id="principal">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="espaco1">Ano de Nascimento: 
-                    <input type="number" name="txtano" id="txtano" min="0">
-                    </p>
-                    <p class="espaco2">Sexo:
-                        <input type="radio" name="radsex" id="mas" checked>
-                        <label for="masc">Masculino</label>
-                        <input type="radio" name="radsex" id="fem">
-                        <label for="fem">Feminino</label>
-                        <p id="verificar">
-                            <input type="button" value=" Verificar " onclick="verificar ()">
-                        </p>
-                    </p>
-                </div>
-                <div id = 'res'>
-                    Preencha os dados acima para ver o Resultado!
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p>© Aprendendo com Alura e Gemini</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+         </header>
+     
+         <section id="principal">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-12">
+                         <p class="espaco1">Ano de Nascimento: 
+                         <input type="number" name="txtano" id="txtano" min="0">
+                         </p>
+                         <p class="espaco2">Sexo:
+                             <input type="radio" name="radsex" id="mas" checked>
+                             <label for="masc">Masculino</label>
+                             <input type="radio" name="radsex" id="fem">
+                             <label for="fem">Feminino</label>
+                             <p id="verificar">
+                                 <input type="button" value=" Verificar " onclick="verificar ()">
+                             </p>
+                         </p>
+                     </div>
+                     <div id = 'res'>
+                         Preencha os dados acima para ver o Resultado!
+                     </div>
+                 </div>
+             </div>
+         </section>
+     
+         <footer>
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-12">
+                         <p>© Aprendendo com Alura e Gemini</p>
+                     </div>
+                 </div>
+             </div>
+         </footer>
+    </div> <!-- Final da Div wrapper -->
 
     <script src="script.js"></script>
 
