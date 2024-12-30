@@ -39,12 +39,12 @@ function verificar() {
 // Função para obter o caminho da imagem
 function getImagem(idade, sexo) {
   if (idade >= 0 && idade < 10) {
-    return `foto-bebe-${sexo}.png`;
+    return `./imagens/foto-bebe-${sexo}.png`;
   } else if (idade < 21) {
-    return `foto-jovem-${sexo}.png`;
+    return `./imagens/foto-jovem-${sexo}.png`;
   } else if (idade < 50) {
-    return `foto-adulto-${sexo}.png`;
+    return `./imagens/foto-adulto-${sexo}.png`;
   } else {
-    return `foto-idoso-${sexo}.png`;
+    return `./imagens/foto-idoso-${sexo}.png`;
   }
 }
