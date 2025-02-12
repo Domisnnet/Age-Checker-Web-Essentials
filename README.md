@@ -24,6 +24,10 @@ Este projeto consiste em um verificador de idade interativo construído com HTML
 
 ## 🛠️ Tecnologias Utilizadas
 
+![HTML](https://img.shields.io/badge/HTML-5-orange?style=flat-square&logo=html5 "HTML")
+![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=flat-square&logo=javascript)
+
 *   **HTML:** Estrutura da página.
 *   **CSS:** Estilo visual da página.
 *   **JavaScript:** Lógica para cálculo da idade e manipulação da interface.
