@@ -7,9 +7,14 @@ Um projeto simples e divertido para calcular a idade de uma pessoa com base no a
 
 ---
 
-## 🚀 Demonstração Ao Vivo
+## 🚀 Como Usar o Verificador?
 
+1.  **Comece Agora:**
+    Clique no botão abaixo para usar o verificador:
 
+<a href="https://domisnnet.github.io/Projeto-Alura/" target="_blank" rel="noopener noreferrer">
+    <img src="src/imagens/botão.webp" width="35px" height="35px" alt="Acesse">
+</a>
 
 ## 💡 Visão Geral
 
