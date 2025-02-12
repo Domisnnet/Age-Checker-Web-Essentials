@@ -40,7 +40,7 @@ Este projeto consiste em um verificador de idade interativo construído com HTML
 *   **Mensagem Personalizada:** Exibe uma mensagem com base na idade calculada.
 *   **Acessibilidade:** Implementação de labels para todos os campos de formulário para melhor experiência do usuário.
 
-## Verificação de Idade  🚀 ⚙️
+## Verificação de Idade ⚙️
 
 **Prepare-se para desvendar o mistério da sua idade!** 🕵️‍♀️ Este projeto, nascido da minha jornada de aprendizado na Alura e turbinado pela inteligência do Gemini, convida você a uma experiência digital simples, mas cativante.
 
