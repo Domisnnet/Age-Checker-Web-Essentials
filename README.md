@@ -1,9 +1,11 @@
 
 # 👶 Verificador de Idade JavaScript 👴
 
+![Verificador](src/imagens/iMac-24-1120x630.png)
+
 Um projeto simples e divertido para calcular a idade de uma pessoa com base no ano de nascimento e sexo. Ideal para iniciantes em JavaScript!
 
-![Verificador](src/imagens/iMac-24-1120x630.png)
+---
 
 ## 🚀 Demonstração Ao Vivo
 
