@@ -16,6 +16,8 @@ Um projeto simples e divertido para calcular a idade de uma pessoa com base no a
     <img src="src/imagens/botão.webp" width="35px" height="35px" alt="Acesse">
 </a>
 
+---
+
 ## 💡 Visão Geral
 
 Este projeto consiste em um verificador de idade interativo construído com HTML, CSS e JavaScript. Ele permite que os usuários insiram seu ano de nascimento e sexo, calcule a idade resultante e exiba uma mensagem personalizada com base na idade. É uma ótima maneira para desenvolvedores iniciantes praticarem suas habilidades e aprenderem os fundamentos do desenvolvimento web.
