@@ -26,10 +26,6 @@ Este projeto consiste em um verificador de idade interativo construído com HTML
 *   **CSS:** Estilo visual da página.
 *   **JavaScript:** Lógica para cálculo da idade e manipulação da interface.
 
-## 💻 Como usar
-
-
-
 ## ✨ Funcionalidades
 
 *   **Interface Amigável:** Design simples e intuitivo.
@@ -49,7 +45,9 @@ Essa função recebe o ano de nascimento como entrada, obtém o ano atual e calc
 
 ## 📝 Licença
 
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
+---
 
 ## 🧑‍💻 Para Desenvolvedores
 
