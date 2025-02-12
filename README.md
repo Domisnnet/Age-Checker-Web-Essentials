@@ -98,8 +98,14 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## 😄 Autor
 
-
+- **Desenvolvedor:** **DomisDev**
+- **Imagens:** Criadas especificamente para este projeto.
 
 ---
 
-Feito com ❤️ por []
+Feito com ❤️ por:
+
+<a href="https://github.com/Domisnnet">
+    <img src="src/imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
+    DomisDev
+</a> 
