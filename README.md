@@ -128,4 +128,6 @@ Feito com ❤️ por:
     DomisDev
 </a> 
 
+---
+
 **Pronto para interagir? - clique, descubra e divirta-se!** ✨👶👴
