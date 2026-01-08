@@ -17,6 +17,9 @@ $card-bg: rgba(10, 25, 47, 0.9);
 body {
   background-image: url(../images/background.png) no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: $body-color;
   position: relative;
   overflow-x: hidden;
 
