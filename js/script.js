@@ -1,22 +1,38 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const verificarBtn = document.getElementById('verificar-btn');
+  if (verificarBtn) {
+    verificarBtn.addEventListener('click', verificar);
+  }
+});
+
 function verificar() {
-  let data = new Date();
-  let anoAtual = data.getFullYear();
-  let fano = document.getElementById("txtano");
-  let res = document.querySelector("div#res");
+  const data = new Date();
+  const anoAtual = data.getFullYear();
+  const fano = document.getElementById("txtano");
+  const anoFeedback = document.getElementById("ano-feedback");
+  const res = document.querySelector("div#res");
+
+  // Limpa o estado de erro anterior
+  fano.classList.remove('is-invalid');
+  anoFeedback.textContent = '';
+
+  const anoNascimento = Number(fano.value);
 
   // Validação do ano
-  if (
-    fano.value.length == 0 ||
-    isNaN(fano.value) ||
-    Number(fano.value) > anoAtual ||
-    Number(fano.value) < 1900
-  ) {
-    window.alert("[ERRO] Verifique o ano e tente novamente!");
-    return; // Sai da função caso haja erro
+  if (fano.value.length === 0 || isNaN(anoNascimento)) {
+    fano.classList.add('is-invalid');
+    anoFeedback.textContent = 'Por favor, insira um ano válido.';
+    return;
+  } 
+
+  if (anoNascimento > anoAtual || anoNascimento < 1900) {
+    fano.classList.add('is-invalid');
+    anoFeedback.textContent = `O ano deve estar entre 1900 e ${anoAtual}.`;
+    return;
   }
 
-  let fsex = document.getElementsByName("radsex");
-  let idade = anoAtual - Number(fano.value);
+  const fsex = document.getElementsByName("radsex");
+  const idade = anoAtual - anoNascimento;
   let gênero = "";
   let img = document.createElement("img");
   img.setAttribute("id", "foto");
@@ -32,7 +48,7 @@ function verificar() {
 
   // Exibe a informação no elemento "res"
   res.style.textAlign = "center";
-  res.innerHTML = ` Detectamos: ${gênero} com idade ${idade} Anos.`;
+  res.innerHTML = `Detectamos: ${gênero} com idade ${idade} Anos.`;
   res.appendChild(img);
 
   // Adiciona tratamento de erro para a imagem

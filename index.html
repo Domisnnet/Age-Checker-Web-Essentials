@@ -12,12 +12,13 @@
     </header>
     <main class="container mt-5">
       <section id="principal" class="card p-4">
-        <p>
-          Ano de Nascimento:
+        <div class="mb-3">
+          <label for="txtano" class="form-label">Ano de Nascimento:</label>
           <input type="number" class="form-control" name="txtano" id="txtano" min="0" />
-        </p>
-        <p>
-          Sexo:
+          <div id="ano-feedback" class="invalid-feedback"></div>
+        </div>
+        <div class="mb-3">
+          <p class="mb-1">Sexo:</p>
           <div class="form-check">
             <input type="radio" class="form-check-input" name="radsex" id="mas" checked />
             <label class="form-check-label" for="mas">Masculino</label>
@@ -26,13 +27,13 @@
             <input type="radio" class="form-check-input" name="radsex" id="fem" />
             <label class="form-check-label" for="fem">Feminino</label>
           </div>
-        </p>
+        </div>
         <p>
           <input
             type="button"
             class="btn btn-primary"
             value="Verificar"
-            id="verificar-btn" 
+            id="verificar-btn"
           />
         </p>
         <div id="res" class="mt-3">Preencha os dados acima para ver o Resultado!</div>
