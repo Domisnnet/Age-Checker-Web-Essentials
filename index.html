@@ -3,57 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projeto Alura com Gemini</title>
-    <link rel="stylesheet" href="src/css/estilo.css" />
+    <title>Verificador de Idade Moderno</title>
+    <!-- Apontei para o novo arquivo que será gerado pelo SASS -->
+    <link rel="stylesheet" href="src/css/main.css" />
   </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="espacamento">Verificação de Idade</h1>
-            </div>
+  <body class="d-flex flex-column min-vh-100">
+    <header class="bg-primary text-white text-center p-3">
+      <h1>Verificação de Idade</h1>
+    </header>
+
+    <main class="container mt-5">
+      <section id="principal" class="card p-4">
+        <p>
+          Ano de Nascimento:
+          <input type="number" class="form-control" name="txtano" id="txtano" min="0" />
+        </p>
+        <p>
+          Sexo:
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="radsex" id="mas" checked />
+            <label class="form-check-label" for="mas">Masculino</label>
           </div>
-        </div>
-      </header>
-      <section id="principal">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <p class="espaco1">
-                Ano de Nascimento:
-                <input type="number" name="txtano" id="txtano" min="0" />
-              </p>
-              <p class="espaco2">
-                Sexo:
-                <input type="radio" name="radsex" id="mas" checked />
-                <label for="masc">Masculino</label>
-                <input type="radio" name="radsex" id="fem" />
-                <label for="fem">Feminino</label>
-              </p>
-              <p id="verificar">
-                <input
-                  type="button"
-                  value=" Verificar "
-                  onclick="verificar()"
-                />
-              </p>
-            </div>
-            <div id="res">Preencha os dados acima para ver o Resultado!</div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="radsex" id="fem" />
+            <label class="form-check-label" for="fem">Feminino</label>
           </div>
-        </div>
+        </p>
+        <p>
+          <input
+            type="button"
+            class="btn btn-primary"
+            value="Verificar"
+            onclick="verificar()"
+          />
+        </p>
+        <div id="res" class="mt-3">Preencha os dados acima para ver o Resultado!</div>
       </section>
-      <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <p>© Aprendendo com Alura e Gemini</p>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+    </main>
+
+    <footer class="text-center p-3 mt-auto bg-dark text-light">
+      <p class="fst-italic">© Aprendendo com Alura e Gemini</p>
+    </footer>
+
+    <!-- Importando o JavaScript do Bootstrap -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

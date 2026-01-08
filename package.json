@@ -1,5 +1,12 @@
 {
   "devDependencies": {
     "prettier": "^3.7.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.97.2"
+  },
+  "scripts": {
+    "sass": "sass --watch src/scss:src/css"
   }
 }
