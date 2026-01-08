@@ -1,4 +1,4 @@
-import { getImageForAge } from "./utils/image-service.js";
+import { getImagem } from "./utils/image-service.js";
 
 const verificar = document.getElementById("verificar-btn");
 
@@ -16,26 +16,28 @@ function calcularIdade() {
   const sexo = document.getElementsByName("radsex");
   const idade = anoAtual - Number(anoNascimento.value);
   let genero = "";
+  let generoTexto = "";
 
   if (sexo[0].checked) {
-    genero = "Homem";
+    genero = "m";
+    generoTexto = "Homem";
   } else if (sexo[1].checked) {
-    genero = "Mulher";
+    genero = "f";
+    generoTexto = "Mulher";
   }
 
-  const imagem = getImageForAge(idade, genero);
+  const imagemSrc = getImagem(idade, genero);
   resultado.style.textAlign = "center";
-  resultado.innerHTML = `Detectamos ${genero} com ${idade} anos.`;
-  
-  const foto = document.getElementById("foto");
-  if (foto) {
-    foto.src = imagem;
-  } else {
-    const novaFoto = document.createElement("img");
-    novaFoto.id = "foto";
-    novaFoto.src = imagem;
-    resultado.appendChild(novaFoto);
+  resultado.innerHTML = `Detectamos ${generoTexto} com ${idade} anos.`;
+
+  let foto = document.getElementById("foto");
+  if (!foto) {
+    foto = document.createElement("img");
+    foto.id = "foto";
+    resultado.appendChild(foto);
   }
+  
+  foto.src = imagemSrc;
 }
 
 verificar.addEventListener("click", calcularIdade);

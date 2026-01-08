@@ -11908,9 +11908,14 @@ body::before {
   box-shadow: 0 0 20px 4px rgba(0, 255, 127, 0.7);
   border: 1px solid rgba(0, 255, 127, 0.6);
 }
-#principal h1, #principal .h1 {
+#principal h1, #principal .h1, #principal label {
   color: #00ff7f;
-  text-shadow: 0 0 5px rgba(0, 255, 127, 0.7);
+}
+#principal #txtano.form-control {
+  max-width: 60%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
 }
 
 /* =========================
@@ -11929,9 +11934,9 @@ body::before {
 }
 
 #foto {
-  width: 230px;
-  height: 230px;
-  object-fit: cover;
+  width: 170px;
+  height: 170px;
+  object-fit: co;
   border: 3px solid #00ff7f;
   border-radius: 50%;
   margin: 1rem auto 0;

@@ -56,9 +56,15 @@ body {
   box-shadow: 0 0 20px 4px rgba($primary, 0.7);
   border: 1px solid rgba($primary, 0.6);
 
-  h1 {
+  h1, label {
     color: $primary;
-    text-shadow: 0 0 5px rgba($primary, 0.7);
+  }
+
+  #txtano.form-control { 
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem; 
   }
 }
 
@@ -79,8 +85,8 @@ body {
 }
 
 #foto {
-  width: 230px;
-  height: 230px;
+  width: 170px;
+  height: 170px;
   object-fit: cover;
   border: 3px solid $primary;
   border-radius: 50%;
