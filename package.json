@@ -7,6 +7,6 @@
     "sass": "^1.97.2"
   },
   "scripts": {
-    "sass": "sass --watch src/scss:src/css"
+    "sass": "sass --watch src/scss/main.scss src/css/main.css"
   }
 }
