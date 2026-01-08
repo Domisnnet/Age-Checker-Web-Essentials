@@ -37,14 +37,28 @@ body {
     animation: moveLines 6s linear infinite;
   }
 
-  #logo { position: absolute; 
+  #logo {
+    position: absolute;
     top: 20px;
     right: 240px;
-    width: 90px; 
-    height: auto; 
-    z-index: 10; 
-    animation: pulse 2.5s infinite ease-in-out; transition: transform 0.3s ease;
-    filter: drop-shadow(0 0 6px #00ff7f);
+    width: 90px;
+    height: auto;
+    z-index: 10;
+    filter: drop-shadow(0 0 6px $primary);
+
+    g.ring {
+      animation: pulse-ring 2.5s infinite ease-in-out;
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    .mark {
+      fill: $primary;
+      font-size: 34px;
+      font-weight: 700;
+      letter-spacing: 4;
+      filter: drop-shadow(0 0 6px rgba($primary, 0.6));
+    }
   }
 }
 
@@ -70,11 +84,11 @@ body {
     color: $primary;
   }
 
-  #txtano.form-control { 
+  #txtano.form-control {
     max-width: 60%;
     margin: 0 auto;
     font-size: 0.9rem;
-    padding: 0.25rem 0.5rem; 
+    padding: 0.25rem 0.5rem;
   }
 }
 
@@ -110,48 +124,18 @@ body {
   Animações
 ========================== */
 @keyframes moveLines {
-  from {
-    background-position: 0 0;
-  }
-
-  to {
-    background-position: 40px 40px;
-  }
+  from { background-position: 0 0; }
+  to { background-position: 40px 40px; }
 }
 
-@keyframes pulse-green {
-  from {
-    opacity: 0.2;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes pulse-blue {
-  from {
-    filter: brightness(0.4);
-  }
-
-  to {
-    filter: brightness(1.4);
-  }
-}
-
-@keyframes pulse { 
-  0%, 100% { transform: scale(1); 
-    filter: drop-shadow(0 0 6px #00ff7f); 
-} 
-  50% { transform: scale(1.05); 
-    filter: drop-shadow(0 0 12px #00ff7f); } 
+@keyframes pulse-ring {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
 }
 
 /* =========================
   Responsividade
 ========================== */
 @media (max-width: 768px) {
-  #logo {
-    display: none;
-  }
+  #logo { display: none; }
 }
