@@ -1,3 +1,5 @@
+import { getImagem } from './utils/image-service.js';
+
 document.addEventListener('DOMContentLoaded', () => {
   const verificarBtn = document.getElementById('verificar-btn');
   if (verificarBtn) {
@@ -37,7 +39,7 @@ function verificar() {
   let img = document.createElement("img");
   img.setAttribute("id", "foto");
 
-  // Define o gênero e a imagem
+  // Define o gênero e a imagem usando a função importada
   if (fsex[0].checked) {
     gênero = "Homem";
     img.src = getImagem(idade, "m");
@@ -55,17 +57,4 @@ function verificar() {
   img.onerror = function () {
     res.innerHTML += "<p>Imagem não encontrada.</p>";
   };
-}
-
-// Função para obter o caminho da imagem
-function getImagem(idade, sexo) {
-  if (idade >= 0 && idade < 10) {
-    return `./src/imagens/foto-bebe-${sexo}.png`;
-  } else if (idade < 21) {
-    return `./src/imagens/foto-jovem-${sexo}.png`;
-  } else if (idade < 50) {
-    return `./src/imagens/foto-adulto-${sexo}.png`;
-  } else {
-    return `./src/imagens/foto-idoso-${sexo}.png`;
-  }
 }
