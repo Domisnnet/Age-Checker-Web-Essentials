@@ -1,4 +1,3 @@
-
 # 👶 Verificador de Idade JavaScript 👴
 
 ![Verificador](src/imagens/iMac-24-1120x630.png)
@@ -28,17 +27,17 @@ Este projeto consiste em um verificador de idade interativo construído com HTML
 ![CSS](https://img.shields.io/badge/CSS-3-blue?style=flat-square&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=flat-square&logo=javascript)
 
-*   **HTML:** Estrutura da página.
-*   **CSS:** Estilo visual da página.
-*   **JavaScript:** Lógica para cálculo da idade e manipulação da interface.
+- **HTML:** Estrutura da página.
+- **CSS:** Estilo visual da página.
+- **JavaScript:** Lógica para cálculo da idade e manipulação da interface.
 
 ## ✨ Funcionalidades
 
-*   **Interface Amigável:** Design simples e intuitivo.
-*   **Entrada de Dados:** Formulário para inserir o ano de nascimento e selecionar o sexo.
-*   **Cálculo Automático:** Idade calculada instantaneamente após a inserção dos dados.
-*   **Mensagem Personalizada:** Exibe uma mensagem com base na idade calculada.
-*   **Acessibilidade:** Implementação de labels para todos os campos de formulário para melhor experiência do usuário.
+- **Interface Amigável:** Design simples e intuitivo.
+- **Entrada de Dados:** Formulário para inserir o ano de nascimento e selecionar o sexo.
+- **Cálculo Automático:** Idade calculada instantaneamente após a inserção dos dados.
+- **Mensagem Personalizada:** Exibe uma mensagem com base na idade calculada.
+- **Acessibilidade:** Implementação de labels para todos os campos de formulário para melhor experiência do usuário.
 
 ## Verificação de Idade ⚙️
 
@@ -52,12 +51,11 @@ Este projeto consiste em um verificador de idade interativo construído com HTML
 
 **Por que este projeto é especial?**
 
-*   **Interatividade:** Uma interface amigável e direta para uma experiência leve e divertida.
-*   **Aprendizado na prática:** Uma vitrine do meu progresso como desenvolvedor web, combinando os ensinamentos da Alura com o poder do Gemini.
-*   **Simplicidade com propósito:** Demonstra como conceitos básicos de programação podem criar ferramentas úteis e interessantes.
+- **Interatividade:** Uma interface amigável e direta para uma experiência leve e divertida.
+- **Aprendizado na prática:** Uma vitrine do meu progresso como desenvolvedor web, combinando os ensinamentos da Alura com o poder do Gemini.
+- **Simplicidade com propósito:** Demonstra como conceitos básicos de programação podem criar ferramentas úteis e interessantes.
 
-**Então, o que você está esperando?** 🤔 Descubra sua idade de uma forma inovadora e veja a mágica acontecer! 
-
+**Então, o que você está esperando?** 🤔 Descubra sua idade de uma forma inovadora e veja a mágica acontecer!
 
 ## 🤝 Contribuições
 
@@ -97,22 +95,22 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ## 🧑‍💻 Para Desenvolvedores
 
-*   **Código Limpo:** O código foi escrito com foco na legibilidade e organização.
-*   **Comentários:** Funções importantes estão documentadas para facilitar a compreensão.
-*   **Boas Práticas:** O código segue as boas práticas de desenvolvimento web.
+- **Código Limpo:** O código foi escrito com foco na legibilidade e organização.
+- **Comentários:** Funções importantes estão documentadas para facilitar a compreensão.
+- **Boas Práticas:** O código segue as boas práticas de desenvolvimento web.
 
 ### 🚀 Próximos Passos
 
-*   **Validação:** Adicionar validação para garantir que os dados inseridos sejam válidos.
-*   **Precisão:** Aprimorar o cálculo da idade para considerar o dia e o mês de nascimento.
-*   **Testes:** Implementar testes unitários para garantir a qualidade do código.
-*   **Responsividade:** Tornar a interface responsiva para dispositivos móveis.
+- **Validação:** Adicionar validação para garantir que os dados inseridos sejam válidos.
+- **Precisão:** Aprimorar o cálculo da idade para considerar o dia e o mês de nascimento.
+- **Testes:** Implementar testes unitários para garantir a qualidade do código.
+- **Responsividade:** Tornar a interface responsiva para dispositivos móveis.
 
 ## 📚 Recursos Adicionais (Para Iniciantes)
 
-*   [MDN Web Docs](https://developer.mozilla.org/pt-BR/): A melhor fonte de documentação sobre HTML, CSS e JavaScript.
-*   [FreeCodeCamp](https://www.freecodecamp.org/): Plataforma online com cursos gratuitos de programação.
-*   [Alura](https://www.alura.com.br/): Plataforma online com cursos de tecnologia (inclui cursos de HTML, CSS e JavaScript).
+- [MDN Web Docs](https://developer.mozilla.org/pt-BR/): A melhor fonte de documentação sobre HTML, CSS e JavaScript.
+- [FreeCodeCamp](https://www.freecodecamp.org/): Plataforma online com cursos gratuitos de programação.
+- [Alura](https://www.alura.com.br/): Plataforma online com cursos de tecnologia (inclui cursos de HTML, CSS e JavaScript).
 
 ## 😄 Autor
 
@@ -126,7 +124,7 @@ Feito com ❤️ por:
 <a href="https://github.com/Domisnnet">
     <img src="src/imagens/DomisDev.png" width="60px" height="60px" alt="Acessar perfil GitHub">
     DomisDev
-</a> 
+</a>
 
 ---
 
