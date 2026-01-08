@@ -1,80 +1,135 @@
-// Fase Final 2.0: O Melhor dos Dois Mundos
-
-// 1. Definição da Paleta de Cores
+/* =========================
+  Paleta de Cores
+========================== */
 $primary: #00ff7f;
+$secondary: #00e5ff;
 $body-color: #f0f0f0;
 $card-bg: rgba(10, 25, 47, 0.9);
 
-// 2. Importação do Bootstrap
+/* =========================
+  Importação
+========================== */
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// 3. Estilos Globais - AGORA COM BACKGROUND
+/* =========================
+  Estilização Geral
+========================== */
 body {
-  // A imagem de fundo volta, mas apenas como papel de parede atmosférico.
-  background-image: url("../imagens/background.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; // Mantém o fundo estático durante o scroll
-  background-color: #000; // Cor de fallback caso a imagem não carregue
+  background-color: #000;
   color: $body-color;
+  position: relative;
+  overflow-x: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, rgba($primary, 0.1) 1px, transparent 1px),
+      linear-gradient(rgba($primary, 0.1) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+    z-index: -1;
+    animation: moveLines 6s linear infinite;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, rgba($primary, 0.5) 1.5px, transparent 1.5px),
+      radial-gradient(circle, rgba($secondary, 0.4) 1.5px, transparent 1.5px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+    pointer-events: none;
+    z-index: -1;
+    animation: pulse-green 2s infinite alternate,
+      pulse-blue 3.5s infinite alternate-reverse;
+  }
 }
 
-// 4. O Card Neon (Autossuficiente e Perfeito)
+/* =========================
+  Card Principal
+========================== */
 #principal {
   position: relative;
   display: flex;
   flex-direction: column;
   word-wrap: break-word;
   background-clip: border-box;
-
   width: 90%;
-  max-width: 550px;
-
-  // A moldura é feita com CSS, garantindo alinhamento perfeito
-  border: 2px solid rgba($primary, 0.7);
-  border-radius: 1.25rem;
-  box-shadow: 0 0 15px rgba($primary, 0.5), 
-              0 0 30px rgba($primary, 0.3), 
-              inset 0 0 20px rgba($primary, 0.4);
-
+  max-width: 500px;
   background-color: $card-bg;
-  backdrop-filter: blur(10px);
-
+  backdrop-filter: blur(12px);
   padding: 1.5rem;
-
-  .form-label, .form-check-label, p {
-    color: $body-color;
-  }
+  border-radius: 1.25rem;
+  box-shadow: 0 0 20px 4px rgba($primary, 0.7);
+  border: 1px solid rgba($primary, 0.6);
 
   h1 {
-      color: $primary;
-      text-shadow: 0 0 5px rgba($primary, 0.7);
+    color: $primary;
+    text-shadow: 0 0 5px rgba($primary, 0.7);
   }
 }
 
-// 5. Estilos de Input, Rodapé e Imagem de Resultado (sem alterações)
+/* =========================
+  Controles Internos
+========================== */
 .form-control {
-    background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
+  color: $body-color;
+  border-color: rgba($primary, 0.5);
+
+  &:focus {
+    background-color: rgba(0, 0, 0, 0.5);
     color: $body-color;
-    border-color: rgba($primary, 0.5);
-
-    &:focus {
-        background-color: rgba(0,0,0,0.5);
-        color: $body-color;
-        border-color: $primary;
-        box-shadow: 0 0 8px rgba($primary, 0.5);
-    }
-}
-
-footer p {
-    color: rgba(255, 255, 255, 0.6);
-    text-shadow: 0 0 5px rgba(0,0,0,0.7);
+    border-color: $primary;
+    box-shadow: 0 0 8px rgba($primary, 0.5);
+  }
 }
 
 #foto {
-    border: 3px solid $primary;
-    border-radius: 50%;
-    margin-top: 1rem;
-    box-shadow: 0 0 10px rgba($primary, 0.7);
+  max-width: 120px;
+  border: 2px solid $primary;
+  border-radius: 50%;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px rgba($primary, 0.7);
+}
+
+/* =========================
+  Animações
+========================== */
+@keyframes moveLines {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 40px 40px;
+  }
+}
+
+@keyframes pulse-green {
+  from {
+    opacity: 0.2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse-blue {
+  from {
+    filter: brightness(0.4);
+  }
+
+  to {
+    filter: brightness(1.4);
+  }
 }
