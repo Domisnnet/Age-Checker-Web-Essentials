@@ -15,8 +15,7 @@ $card-bg: rgba(10, 25, 47, 0.9);
   Estilização Geral
 ========================== */
 body {
-  background-color: #000;
-  color: $body-color;
+  background-image: url(../imagens/background.png);
   position: relative;
   overflow-x: hidden;
 
@@ -33,23 +32,6 @@ body {
     pointer-events: none;
     z-index: -1;
     animation: moveLines 6s linear infinite;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: radial-gradient(circle, rgba($primary, 0.5) 1.5px, transparent 1.5px),
-      radial-gradient(circle, rgba($secondary, 0.4) 1.5px, transparent 1.5px);
-    background-size: 40px 40px;
-    background-position: 0 0, 20px 20px;
-    pointer-events: none;
-    z-index: -1;
-    animation: pulse-green 2s infinite alternate,
-      pulse-blue 3.5s infinite alternate-reverse;
   }
 }
 
@@ -94,7 +76,7 @@ body {
 }
 
 #foto {
-  max-width: 120px;
+  max-width: 170px;
   border: 2px solid $primary;
   border-radius: 50%;
   margin-top: 1rem;

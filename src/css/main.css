@@ -11869,8 +11869,7 @@ textarea.form-control-lg {
   Estilização Geral
 ========================== */
 body {
-  background-color: #000;
-  color: #f0f0f0;
+  background-image: url(../imagens/background.png);
   position: relative;
   overflow-x: hidden;
 }
@@ -11886,20 +11885,6 @@ body::before {
   pointer-events: none;
   z-index: -1;
   animation: moveLines 6s linear infinite;
-}
-body::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(circle, rgba(0, 255, 127, 0.5) 1.5px, transparent 1.5px), radial-gradient(circle, rgba(0, 229, 255, 0.4) 1.5px, transparent 1.5px);
-  background-size: 40px 40px;
-  background-position: 0 0, 20px 20px;
-  pointer-events: none;
-  z-index: -1;
-  animation: pulse-green 2s infinite alternate, pulse-blue 3.5s infinite alternate-reverse;
 }
 
 /* =========================
@@ -11941,7 +11926,7 @@ body::after {
 }
 
 #foto {
-  max-width: 120px;
+  max-width: 170px;
   border: 2px solid #00ff7f;
   border-radius: 50%;
   margin-top: 1rem;
