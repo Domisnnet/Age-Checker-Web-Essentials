@@ -36,6 +36,16 @@ body {
     z-index: -1;
     animation: moveLines 6s linear infinite;
   }
+
+  #logo { position: absolute; 
+    top: 20px;
+    right: 240px;
+    width: 90px; 
+    height: auto; 
+    z-index: 10; 
+    animation: pulse 2.5s infinite ease-in-out; transition: transform 0.3s ease;
+    filter: drop-shadow(0 0 6px #00ff7f);
+  }
 }
 
 /* =========================
@@ -126,5 +136,22 @@ body {
 
   to {
     filter: brightness(1.4);
+  }
+}
+
+@keyframes pulse { 
+  0%, 100% { transform: scale(1); 
+    filter: drop-shadow(0 0 6px #00ff7f); 
+} 
+  50% { transform: scale(1.05); 
+    filter: drop-shadow(0 0 12px #00ff7f); } 
+}
+
+/* =========================
+  Responsividade
+========================== */
+@media (max-width: 768px) {
+  #logo {
+    display: none;
   }
 }
