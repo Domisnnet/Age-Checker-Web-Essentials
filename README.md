@@ -1,5 +1,93 @@
 # 👶 Verificador de Idade JavaScript 👴
 
+<p align="center">
+  <img src="src/imagens/iMac-24-1120x630.png" alt="Demonstração do Verificador de Idade" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</p>
+
+> Um projeto interativo desenvolvido para calcular a idade com base no ano de nascimento e gênero, exibindo resultados personalizados com imagens dinâmicas. Ideal para praticar lógica de programação e manipulação do DOM.
+
+---
+
+## 🚀 Demonstração
+
+Deseja testar a lógica agora mesmo? Acesse o projeto online através do link abaixo:
+
+**[👉 Acessar Verificador de Idade](https://domisnnet.github.io/Projeto-Alura/)**
+
+---
+
+## 💡 Visão Geral
+
+Este projeto foi construído durante a minha jornada de aprendizado na **Alura**, com o suporte estratégico do **Gemini**, para explorar como o JavaScript pode interagir com o usuário em tempo real através da manipulação de formulários e elementos visuais.
+
+### ✨ Funcionalidades
+* **Cálculo Instantâneo:** Processamento imediato da idade baseada no ano atual.
+* **Feedback Visual Dinâmico:** Troca de imagens conforme a faixa etária detectada.
+* **Interface Amigável:** Design limpo e intuitivo para qualquer dispositivo.
+* **Acessibilidade:** Uso correto de labels e elementos semânticos.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Tecnologia | Função |
+| :--- | :--- |
+| **HTML5** | Estruturação semântica da interface. |
+| **CSS3** | Estilização moderna e responsividade. |
+| **JavaScript (ES6+)** | Lógica de cálculo, validação e troca de imagens. |
+| **Google Gemini** | Auxílio na refatoração e otimização de código. |
+
+---
+
+## ⚙️ Como Participar da Brincadeira?
+
+O funcionamento é simples e direto:
+
+1.  **Input:** Digite o ano em que você veio ao mundo.
+2.  **Gênero:** Selecione a opção Masculino ou Feminino.
+3.  **Resultado:** Clique em **Verificar** para ver a revelação da sua idade aparecer com uma imagem ilustrativa correspondente!
+
+---
+
+## 🤝 Contribuições
+
+Este deck é aberto para melhorias! Siga os passos para fortalecer o código:
+
+1.  🍴 **Fork:** Adicione este projeto ao seu perfil.
+2.  🌿 **Branch:** Crie uma branch para suas atualizações (`git checkout -b minha-contribuicao`).
+3.  ✍️ **Commit:** Guarde suas mudanças com mensagens claras.
+4.  🚀 **Push:** Envie para o seu repositório.
+5.  ⚔️ **Pull Request:** Abra uma solicitação de mesclagem para análise.
+
+---
+
+## 📝 Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
+
+---
+
+## 🧑‍💻 Autor
+
+Desenvolvido com ❤️ por **DomisDev**.
+
+<a href="https://github.com/Domisnnet">
+    <img src="src/imagens/DomisDev.png" width="80px" style="border-radius: 50%" alt="Avatar do Autor">
+    <br>
+    <sub><b>@DomisDev</b></sub>
+</a>
+
+---
+
+**Pronto para interagir? Clique, descubra e divirta-se!** ✨👶👴
+# 👶 Verificador de Idade JavaScript 👴
+
 ![Verificador](src/imagens/iMac-24-1120x630.png)
 
 Um projeto simples e divertido para calcular a idade de uma pessoa com base no ano de nascimento e sexo. Ideal para iniciantes em JavaScript!
