@@ -4,7 +4,7 @@
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blueviolet)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Projeto-Alura/blob/main/LICENSE)
 
-![Verificador de Idade](src/imagens/iMac-24-1120x630.png)
+![Verificador de Idade](src/images/iMac-24-1120x630.png)
 
 Bem-vindo ao **Verificador de Idade**! Um projeto interativo desenvolvido para calcular a faixa etária de um usuário com base no ano de nascimento e gênero. Com uma interface simples e funcional, o sistema entrega um feedback visual dinâmico, adaptando imagens e mensagens para cada fase da vida.
 
@@ -37,7 +37,7 @@ Clique no botão abaixo para iniciar o Verificador de Idade diretamente no seu n
 
 <div align="left">
   <a href="https://domisnnet.github.io/Projeto-Alura/" target="_blank">
-    <img alt="Botão Acessar" src="src/imagens/botão.webp" height="70" width="70" />
+    <img alt="Botão Acessar" src="src/images/botão.webp" height="70" width="70" />
   </a>
 </div>
 
@@ -147,4 +147,4 @@ Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badg
 
 <h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
 
-<a href="https://github.com/Domisnnet"> <img src="src/imagens/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
+<a href="https://github.com/Domisnnet"> <img src="src/images/DomisDev.png" width="120" alt="Acessar perfil GitHub"> </a>
