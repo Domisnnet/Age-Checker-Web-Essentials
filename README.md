@@ -4,7 +4,7 @@
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blueviolet)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Projeto-Alura/blob/main/LICENSE)
 
-![Verificador de Idade](src/imagens/iMac-24-1120x630.png)
+![Verificador de Idade](src/imagens/projeto-alura.png)
 
 Bem-vindo ao **Verificador de Idade**! Um projeto interativo desenvolvido para calcular a faixa etária de um usuário com base no ano de nascimento e gênero. Com uma interface simples e funcional, o sistema entrega um feedback visual dinâmico, adaptando imagens e mensagens para cada fase da vida.
 
