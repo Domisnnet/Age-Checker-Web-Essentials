@@ -129,7 +129,7 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 Para uma navegação direta pelos arquivos do desenvolvedor:
 
-[![Código](https://img.shields.io/badge/Código%20Fonte-Acessar-795548?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Projeto-Alura/tree/main/src)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FProjeto--Alura-blue?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Projeto-Alura/tree/main/src)
 
 ---
 
