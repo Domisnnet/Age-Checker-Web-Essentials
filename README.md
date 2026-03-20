@@ -73,10 +73,10 @@ Implementação de uma estrutura lógica robusta para classificar corretamente a
 
 ```bash
 # Clonar o repositório
-git clone [https://github.com/Domisnnet/GitHub-Stats.git](https://github.com/Domisnnet/King-Domfy.git)
+git clone [https://github.com/Domisnnet/Projeto-Alura.git](https://github.com/Domisnnet/Projeto-Alura.git)
 
 # Acessar a pasta
-cd King-Domfy
+cd Projeto-Alura
 ```
 
 ---
