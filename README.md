@@ -1,4 +1,4 @@
-<h2 id="sobre-o-projeto">1. 👶 Verificador de Idade - JavaScript 👴</h2>
+<h2 id="sobre-o-projeto">1. Verificador de Idade - JavaScript 👶👴</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blueviolet)
@@ -69,11 +69,15 @@ Implementação de uma estrutura lógica robusta para classificar corretamente a
 
 ---
 
-<h2 id="codigo-fonte">6. 📂 Repositório</h2>
+<h2 id="codigo-fonte">6. 🚀 Instalação e Configuração Local</h2>
 
-Deseja analisar a estrutura do projeto ou clonar para estudos? Explore o repositório oficial:
+```bash
+# Clonar o repositório
+git clone [https://github.com/Domisnnet/GitHub-Stats.git](https://github.com/Domisnnet/King-Domfy.git)
 
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FProjeto--Alura-1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Projeto-Alura)
+# Acessar a pasta
+cd King-Domfy
+```
 
 ---
 
@@ -85,9 +89,15 @@ Siga os passos abaixo para fortalecer este projeto:
 | :---: | :--- | :--- |
 | **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/Projeto-Alura/fork) |
 | **02** | **Branch** | `git checkout -b feature/MinhaMelhoria` |
-| **03** | **Commit** | `git commit -m 'feat: melhoria na validação de ano'` |
+| **03** | **Commit** | `git commit -m 'feat: nova seção de álbuns'` |
 | **04** | **Push** | `git push origin feature/MinhaMelhoria` |
 | **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/Projeto-Alura/compare) |
+
+### 🐛 Encontrou um problema?
+Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
+
+[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/Projeto-Alura?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Projeto-Alura/issues)
+[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/Projeto-Alura/issues/new)
 
 ---
 
