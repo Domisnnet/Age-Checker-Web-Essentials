@@ -2,7 +2,7 @@
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JS-blueviolet)
-[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Projeto-Alura/blob/main/LICENSE)
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Age-Checker-Web-Essentials/blob/main/LICENSE)
 
 ![Verificador de Idade](src/imagens/projeto-alura.png)
 
@@ -36,7 +36,7 @@ Bem-vindo ao **Verificador de Idade**! Um projeto interativo desenvolvido para c
 Clique no botão abaixo para iniciar o Verificador de Idade diretamente no seu navegador:
 
 <div align="left">
-  <a href="https://domisnnet.github.io/Projeto-Alura/" target="_blank">
+  <a href="https://domisnnet.github.io/Age-Checker-Web-Essentials/" target="_blank">
     <img alt="Botão Acessar" src="src/imagens/botão.webp" height="70" width="70" />
   </a>
 </div>
@@ -73,10 +73,10 @@ Implementação de uma estrutura lógica robusta para classificar corretamente a
 
 ```bash
 # Clonar o repositório
-git clone [https://github.com/Domisnnet/Projeto-Alura.git](https://github.com/Domisnnet/Projeto-Alura.git)
+git clone [https://github.com/Domisnnet/Age-Checker-Web-Essentials.git](https://github.com/Domisnnet/Age-Checker-Web-Essentials.git)
 
 # Acessar a pasta
-cd Projeto-Alura
+cd Age-Checker-Web-Essentials
 ```
 
 ---
@@ -87,17 +87,17 @@ Siga os passos abaixo para fortalecer este projeto:
 
 | Fase | Ação | Link / Comando |
 | :---: | :--- | :--- |
-| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/Projeto-Alura/fork) |
+| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/Age-Checker-Web-Essentials/fork) |
 | **02** | **Branch** | `git checkout -b feature/MinhaMelhoria` |
 | **03** | **Commit** | `git commit -m 'feat: nova seção de álbuns'` |
 | **04** | **Push** | `git push origin feature/MinhaMelhoria` |
-| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/Projeto-Alura/compare) |
+| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/Age-Checker-Web-Essentials/compare) |
 
 ### 🐛 Encontrou um problema?
 Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
-[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/Projeto-Alura?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Projeto-Alura/issues)
-[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/Projeto-Alura/issues/new)
+[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/Projeto-Alura?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Age-Checker-Web-Essentials/issues)
+[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/Age-Checker-Web-Essentials/issues/new)
 
 ---
 
@@ -120,7 +120,7 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 <details>
 <summary><strong>Posso usar este código para meus estudos ❓</strong></summary>
-<p>🤝 <strong>Resposta:</strong> Com certeza. O projeto é Open Source sob a licença MIT. Sinta-se à vontade para clonar, estudar a lógica e adaptar para suas necessidades.</p>
+<p>🤝 <strong>Resposta:</strong> Com certeza. O projeto é Open Source sob a licença MIT. Sinta-se à vontade para clonar, estudar a lógica e adaptar para suas necessidades. Só não esqueça de dar os devidos Créditos!</p>
 </details>
 
 ---
@@ -129,7 +129,7 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 Para uma navegação direta pelos arquivos do desenvolvedor:
 
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FProjeto--Alura-blue?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Projeto-Alura/tree/main/src)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FAge-Ckecker-Web--Essentilas-blue?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Age-Checker-Web-Essentials/tree/main/src)
 
 ---
 
@@ -151,7 +151,7 @@ O **Verificador de Idade** é fruto de estudos práticos e colaboração tecnol�
 
 <h2 id="licenca">11. 📄 Licença</h2>
 
-Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Projeto-Alura/blob/main/LICENSE)
+Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Age-Checker-Web-Essentials/blob/main/LICENSE)
 
 ---
 
