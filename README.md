@@ -133,7 +133,7 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 Para uma navegação direta pelos arquivos do desenvolvedor:
 
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FPokedevs--Web--Essentials-blue?style=for-the-badge&logo=github&labelColor=0d1117)](https://domisnnet.github.io/Age-Checker-Web-Essentials/)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FAge-Checker--Web--Essentials-blue?style=for-the-badge&logo=github&labelColor=0d1117)](https://domisnnet.github.io/Age-Checker-Web-Essentials/)
 
 ---
 
