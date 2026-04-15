@@ -1,3 +1,7 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/domisnnet/Age-Checker-Web-Essentials?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/domisnnet/Age-Checker-Web-Essentials?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/domisnnet/Age-Checker-Web-Essentials?style=for-the-badge)
+
 <h2 id="sobre-o-projeto">1. Verificador de Idade - JavaScript 👶👴</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
@@ -129,7 +133,7 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 Para uma navegação direta pelos arquivos do desenvolvedor:
 
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FAge-Ckecker-Web--Essentilas-blue?style=for-the-badge&logo=github)](https://github.com/Domisnnet/Age-Checker-Web-Essentials/tree/main/src)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FPokedevs--Web--Essentials-blue?style=for-the-badge&logo=github&labelColor=0d1117)](https://domisnnet.github.io/Age-Checker-Web-Essentials/)
 
 ---
 
@@ -157,5 +161,6 @@ Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badg
 
 <h2 id="perfil-do-github">12. 👨‍💻 Perfil do GitHub</h2>
 
-<a href="https://github.com/Domisnnet"> <img src="src/imagens/DomisDev.png" width="90" alt="Acessar perfil GitHub"> 
+<a href="https://github.com/Domisnnet"> 
+  <img src="src/imagens/DomisDev.png" width="90" alt="Acessar perfil GitHub"> 
 </a>
